@@ -21,17 +21,19 @@ Installation
    muttrc. Alternately, you can copy just the version of the colorscheme you 
    will be using (see below for details).
 
-2. Source the colorscheme in your muttrc. Only one of the following, depending 
+2. Source the colorscheme in your muttrc. Use __one__ of the following, depending 
    on the light or dark background you wish to use, and whether you want to use 
    the native 16 colors of your terminal emulator or the approximatation 
-   provided by the 256 color values. See note below for recommendations.
+   provided by the 256 color values. 
 
+    ```
     source $MAILCONF/mutt-colors-solarized/mutt-colors-solarized-dark-16.muttrc
     source $MAILCONF/mutt-colors-solarized/mutt-colors-solarized-light-16.muttrc
     source $MAILCONF/mutt-colors-solarized/mutt-colors-solarized-dark-256.muttrc
     source $MAILCONF/mutt-colors-solarized/mutt-colors-solarized-light-256.muttrc
+    ```
 
-Note: You can safely ignore the compile colors script and the template file.  
+**Note:** You can safely ignore the compile colors script and the template file.  
 They are used only for creating the actual colorscheme files. If you want to 
 modify the colorscheme or colors, you can use the compile script and template 
 to do so.
