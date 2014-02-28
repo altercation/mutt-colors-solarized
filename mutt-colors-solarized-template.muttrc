@@ -117,7 +117,7 @@ color body          J_base1         J_bg            "[ ]?[*][^*]*[*][ ]" # more 
 
 color body          J_red           J_bg            "(BAD signature)"
 color body          J_cyan          J_bg            "(Good signature)"
-color body          J_base03        J_bg            "^gpg: Good signature .*"
+color body          J_base00        J_bg            "^gpg: Good signature .*"
 color body          J_base00        J_bg            "^gpg: "
 color body          J_base00        J_red           "^gpg: BAD signature from.*"
 mono  body          bold                            "^gpg: Good signature"

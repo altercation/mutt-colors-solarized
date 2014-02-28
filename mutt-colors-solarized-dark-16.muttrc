@@ -117,7 +117,7 @@ color body          brightcyan      default         "[ ]?[*][^*]*[*][ ]" # more 
 
 color body          red             default         "(BAD signature)"
 color body          cyan            default         "(Good signature)"
-color body          brightblack     default         "^gpg: Good signature .*"
+color body          brightyellow    default         "^gpg: Good signature .*"
 color body          brightyellow    default         "^gpg: "
 color body          brightyellow    red             "^gpg: BAD signature from.*"
 mono  body          bold                            "^gpg: Good signature"

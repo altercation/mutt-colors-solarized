@@ -117,7 +117,7 @@ color body          color245        color234        "[ ]?[*][^*]*[*][ ]" # more 
 
 color body          color160        color234        "(BAD signature)"
 color body          color37         color234        "(Good signature)"
-color body          color234        color234        "^gpg: Good signature .*"
+color body          color241        color234        "^gpg: Good signature .*"
 color body          color241        color234        "^gpg: "
 color body          color241        color160        "^gpg: BAD signature from.*"
 mono  body          bold                            "^gpg: Good signature"
